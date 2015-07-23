@@ -1,18 +1,18 @@
 {
-    "name": "embdr",
-    "version": "0.0.1",
-    "main": "./lib/embdr.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/fronteerio/node-embdr.git"
-    },
-    "dependencies": {
-        "lodash": "latest",
-        "request": "latest"
-    },
-    "devDependencies": {
-        "babel-eslint": "latest",
-        "gulp": "latest",
-        "gulp-eslint": "latest"
-    }
+  "name": "embdr",
+  "version": "0.0.1",
+  "main": "./lib/embdr.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fronteerio/node-embdr.git"
+  },
+  "dependencies": {
+    "lodash": "latest",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "gulp": "latest",
+    "gulp-eslint": "latest"
+  }
 }
