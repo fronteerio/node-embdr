@@ -47,6 +47,19 @@ embdr.process('path/to/my/file.xlsx', {
         }
     },
 
+    'images': {
+        // Specify the desired sizes of the image previews. When only one side of the dimension is
+        // specified, the image will be scaled so the original ratio is retained. Image previews
+        // will never be scaled up
+        'sizes': ['768x'],
+
+        // Invoked when the image previews are ready
+        'complete': function(images) {
+            console.log('Generated images');
+            console.log(images);
+        }
+    },
+
     // Invoked when the entire file has been processed
     'complete': function(resource) {
         console.log('Completely processed a resource');
